@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Farming Bot - 게시판</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<style>
+		h1,h2,h3,h4,h5,h6,b,p,a,header p {
+			color: #ffffff;
+		}
+		.fullscreen-bg,#header,#main-wrapper{
+			display: none;
+		}
+	</style>
+	<link rel="shortcut icon" href="../images/favicon.ico">
+
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/skel.min.js"></script>
+	<script src="../assets/js/jquery.dropotron.min.js"></script>
+	<script src="../assets/js/skel-viewport.min.js"></script>
+	<script src="../assets/js/main.js"></script>
+	<script src="../assets/js/util.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$('.fullscreen-bg').fadeIn(1000);
+			$("#header").slideDown(1000);
+			$("#banner").slideDown(1000);
+			$("#main-wrapper").slideDown(1000);
+		});
+	</script>
+
+
+
+</head>
+
+<body class="left-sidebar">
+	<div id="page-wrapper">
+		<div class="fullscreen-bg">
+			<video loop muted autoplay poster="../images/bg.png" class="fullscreen-bg__video">
+						<source src="../video/bg.mp4" type="video/mp4">
+				</video>
+		</div>
+
+		<!-- Header Wrapper -->
+		<div id="header-wrapper">
+			<div class="container">
+
+				<!-- Header -->
+				<header id="header">
+					<div class="inner">
+
+						<!-- Logo -->
+						<h1><a href="../index.html" id="logo">FARMING BOT</a></h1>
+
+						<!-- Nav -->
+						<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="home.html">Home</a></li>
+								<li >
+									<a href="aboutus.html">소개</a>
+									
+													<ul>
+														<li><a href="#">회사소개</a></li>
+														<li><a href="#">연혁</a></li>
+														<li><a href="#">특허현황</a></li>
+													</ul>
+												
+								</li>
+								<li><a href="products.html">제품소개</a></li>
+								<li class="current_page_item"><a href="board.html">게시판</a></li>
+								<li><a href="contact.html">고객지원</a></li>
+							</ul>
+						</nav>
+
+					</div>
+				</header>
+
+			</div>
+		</div>
+
+		<!-- Main Wrapper -->
+		<div id="main-wrapper">
+			<div class="wrapper style2">
+				<div class="inner">
+					<div class="container">
+						<div class="row">
+							<div class="4u 12u(mobile)">
+								<div id="sidebar">
+
+									<!-- Sidebar -->
+
+									<section>
+										<header class="major">
+											<h2>게시판 리스트</h2>
+										</header>
+										<p>자유게시판</p>
+
+
+
+									</section>
+
+
+
+								</div>
+							</div>
+							<div class="8u 12u(mobile) important(mobile)">
+								<div id="content">
+
+									<!-- Content -->
+
+									<article>
+										<header class="major">
+											<h2>자유 게시판</h2>
+											<p>자유게시판 입니다.</p>
+										</header>
+										<table style="border:1px gray solid">
+											<thead style="border:1px gray solid">
+												<tr>
+													<th><p>번호</p></th>
+													<th><p>제목</p></th>
+													<th><p>날짜</p></th>
+													<th><p>조회수</p></th>
+												</tr>
+											</thead>
+											<tr>
+												<td><h4>2</h4></td>
+												<td><a style="cursor:pointer;">석삼글이당</a></td>
+												<td><h4>2017.05.22</h4></td>
+												<td><h4>0</h4></td>
+											</tr>
+
+											<tr>
+												<td><h4>1</h4></td>
+												<td><a style="cursor:pointer;">두식이글이당</a></td>
+												<td><h4>2017.05.22</h4></td>
+												<td><h4>0</h4></td>
+											</tr>
+
+											<tr>
+												<td><h4>0</h4></td>
+												<td><a style="cursor:pointer;">한놈글이당</a></td>
+												<td><h4>2017.05.22</h4></td>
+												<td><h4>0</h4></td>
+											</tr>
+
+
+
+
+											<tbody>
+
+
+											</tbody>
+										</table>
+											<button  href="#" class="button icon fa-arrow-circle">글쓰기</button>
+									</article>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+
+</html>
